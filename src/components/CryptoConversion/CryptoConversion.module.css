@@ -1,0 +1,63 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 50px;
+}
+
+.convertInputs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.input {
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  transition: all 0.2s;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.input:hover {
+  background-color: #8080801c;
+}
+
+.select {
+  text-align: center;
+  height: 34px;
+  font-size: 16px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: #8080801c;
+  transition: all 0.2s;
+}
+
+.select:hover {
+  background-color: #8080804a;
+}
+
+.reverseConversion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background-color: #8080801c;
+  width: 20px;
+  height: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.reverseConversion:hover {
+  background-color: #8080804a;
+}
